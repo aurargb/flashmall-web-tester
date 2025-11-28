@@ -1,0 +1,1 @@
+import{N as a}from"./index-Clz0Qna-.js";const f=e=>a("POST","/fm_feedback/save",e),c=e=>a("GET","/fm_feedback/list",e),s=e=>a("POST","/fm_feedback/reply",e),r=e=>a("GET","/fm_feedback/delete",e),d=e=>a("GET",`fm_feedback/get?id=${e}`,null),b=e=>a("GET","/fm_feedback/list2",e);export{c as a,f as b,b as c,d,s as e,r as f};
