@@ -1,1 +1,0 @@
-import{N as e}from"./index-Wb-6_0W_.js";const t=s=>e("POST","/vsageUsers/getUsersByAddress",s),a=s=>e("GET","/vsageRedeemLog/list",s),d=s=>e("GET","/vsageUsers/getAddressById",s),g=()=>e("GET","/vsageUsers/getInactiveUsers",!1);export{a,t as b,g as c,d as g};
