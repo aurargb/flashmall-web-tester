@@ -1,0 +1,1 @@
+import{N as s}from"./index-Wb-6_0W_.js";const e=()=>s("GET","/otc_transaction_record/latest","",!1),o=(t,r)=>s("POST",`/otc_transaction_record/list?page=${t.page}&size=${t.size}`,r),i=t=>s("GET","/otc_transaction_record/kLineList",{type:t,page:1,size:50},!1,"application/json");export{i as g,o as h,e as l};

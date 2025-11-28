@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Sans";
+  src: url("./fonts/WorkSans-VariableFont_wght.ttf");
+  font-display: block;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./fonts/WorkSans-VariableFont_wght.ttf");
+  font-display: block;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Audiowide";
+  src: url("./fonts/Audiowide-Regular.ttf");
+  font-display: block;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("./fonts/AlibabaPuHuiTi3/AlibabaPuHuiTi-3-55-Regular.ttf");
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("./fonts/AlibabaPuHuiTi3/AlibabaPuHuiTi-3-55-Regular.ttf");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("./fonts/AlibabaPuHuiTi3/AlibabaPuHuiTi-3-75-SemiBold.ttf");
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+  font-display: block;
+  font-weight: 400;
+}

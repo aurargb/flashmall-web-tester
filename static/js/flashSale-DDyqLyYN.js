@@ -1,0 +1,1 @@
+var f=(O=>(O[O.Draft=10]="Draft",O[O.OnShelf=20]="OnShelf",O[O.OffShelf=30]="OffShelf",O[O.Ended=40]="Ended",O))(f||{}),A=(O=>(O[O.MC=1]="MC",O[O.STORE_CARD=2]="STORE_CARD",O[O.MIX=3]="MIX",O[O.WITHDRAW_POINTS=4]="WITHDRAW_POINTS",O[O.POINTS_AVAILABLE=10]="POINTS_AVAILABLE",O[O.VOUCHER=20]="VOUCHER",O))(A||{});export{f as G,A as P};

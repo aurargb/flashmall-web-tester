@@ -1,0 +1,1 @@
+import{_ as e,F as t,G as n}from"./vendor-BlU_hoYl.js";const o={},r={class:"absolute top-0 right-0 px-1.5 text-xs font-normal whitespace-nowrap rounded-tr-lg rounded-bl-lg leading-normal bg-[#F44] text-b6 font-Puhui"};function a(c,s){return n(),t("div",r," 代买单 ")}const _=e(o,[["render",a]]);export{_ as O};

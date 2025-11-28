@@ -1,0 +1,20 @@
+<svg width="56" height="59" viewBox="0 0 56 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<g id="Ellipse 29" filter="url(#filter0_d_18_14075)">
+<circle cx="27" cy="27" r="27" fill="#FFD81F"/>
+<circle cx="27" cy="27" r="25.5" stroke="#2E2008" stroke-width="3"/>
+</g>
+<path id="ic:baseline-share" d="M35.5909 32.8579C34.3472 32.8579 33.2345 33.3488 32.3836 34.1179L20.7163 27.327C20.7981 26.9506 20.8636 26.5742 20.8636 26.1815C20.8636 25.7888 20.7981 25.4124 20.7163 25.0361L32.2527 18.3106C33.1363 19.1288 34.2981 19.6361 35.5909 19.6361C38.3072 19.6361 40.5 17.4433 40.5 14.727C40.5 12.0106 38.3072 9.81787 35.5909 9.81787C32.8745 9.81787 30.6818 12.0106 30.6818 14.727C30.6818 15.1197 30.7472 15.4961 30.829 15.8724L19.2927 22.5979C18.409 21.7797 17.2472 21.2724 15.9545 21.2724C13.2381 21.2724 11.0454 23.4651 11.0454 26.1815C11.0454 28.8979 13.2381 31.0906 15.9545 31.0906C17.2472 31.0906 18.409 30.5833 19.2927 29.7651L30.9436 36.5724C30.8618 36.9161 30.8127 37.2761 30.8127 37.6361C30.8127 40.2706 32.9563 42.4142 35.5909 42.4142C38.2254 42.4142 40.369 40.2706 40.369 37.6361C40.369 35.0015 38.2254 32.8579 35.5909 32.8579Z" fill="#2E2008"/>
+</g>
+<defs>
+<filter id="filter0_d_18_14075" x="0" y="0" width="56" height="59" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.12549 0 0 0 0 0.0313726 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_14075"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_14075" result="shape"/>
+</filter>
+</defs>
+</svg>

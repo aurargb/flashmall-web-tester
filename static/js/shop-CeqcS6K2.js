@@ -1,0 +1,1 @@
+var a=(n=>(n[n.SD=0]="SD",n[n.SL=1]="SL",n[n.PR=2]="PR",n[n.ST=3]="ST",n))(a||{});const s={"zh-CN":"jt","zh-HK":"cn","en-US":"en","ja-JP":"jp","vi-VN":"en","ms-MY":"en"},t={"zh-CN":"Jt","zh-HK":"Cn","en-US":"En","ja-JP":"Jp","vi-VN":"En","ms-MY":"En"};export{a as S,s as a,t as l};

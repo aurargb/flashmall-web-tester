@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Sans';
+  src: url('./fonts/WorkSans-VariableFont_wght.ttf');
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Audiowide';
+  src: url('./fonts/Audiowide-Regular.ttf');
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('./fonts/Bebas-Neue.otf');
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'AlibabaPuHuiTi';
+  src: url('./fonts/AlibabaPuHuiTi-3-55-Regular.ttf');
+  font-display: swap;
+  font-weight: normal;
+}

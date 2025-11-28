@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>FlashMall</title>
+
+    <script src="eva/EVA.min.js"></script>
+    <script src="eva/pixi.min.js"></script>
+    <script src="eva/EVA.rendererAdapter.min.js"></script>
+    <script src="eva/EVA.plugin.renderer.min.js"></script>
+    <script src="eva/EVA.plugin.renderer.render.min.js"></script>
+    <script src="eva/EVA.plugin.renderer.img.min.js"></script>
+    <script src="eva/EVA.plugin.renderer.lottie.min.js"></script>
+    <script src="eva/EVA.plugin.renderer.event.min.js"></script>
+    <script src="eva/leaflet.js" version="1.9.3"></script>
+    <link rel="stylesheet" href="eva/leaflet.css" />
+    <!-- <script type="text/javascript" src="eva/remogeo.js"></script> -->
+    <script type="module" crossorigin src="/static/js/index-Wb-6_0W_.js"></script>
+    <link rel="modulepreload" crossorigin href="/static/js/vendor-BlU_hoYl.js">
+    <link rel="stylesheet" crossorigin href="/static/css/vendor-0FIrJBzB.css">
+    <link rel="stylesheet" crossorigin href="/static/css/index-gTYrdY8U.css">
+  </head>
+
+  <body class="sm:h-full sm:flex sm:justify--center">
+    <!-- sm:h-[90%] lg:h-[80%] -->
+    <div
+      id="app"
+      class="relative sm:w-[375px] w-full m-auto sm:h-[100%] lg:h-[100%] h-full overflow-hidden md:rounded-xl select-none bg-gradient-to-b from-primary-008/[1] to-from-primary-009 text-sm font-Sans font-medium"
+    ></div>
+    <script>
+      // 初始化vConsole
+      const initVConsole = () => {
+        window.vConsole = new window.VConsole({
+          defaultPlugins: ['system', 'network', 'element', 'storage'], // 可以在此设定要默认加载的面板
+          maxLogNumber: 1000,
+          // disableLogScrolling: true,
+          onReady: () => {
+            console.log('vConsole: onReady')
+          },
+          onClearLog: () => {
+            console.log('vConsole: onClearLog')
+          },
+        })
+        console.info(
+          'Welcome to vConsole. VConsole is a web front-end developer panel developed by the WeChat front-end team, which can be used to display console logs for easy development and debugging.'
+        )
+      }
+      // 引入vConsole的JS库
+      const loadVConsole = () => {
+        const urlParams = new URLSearchParams(window.location.search)
+        const v = urlParams.get('v') || 'latest'
+        const script = document.createElement('SCRIPT')
+        script.src = `https://unpkg.com/vconsole@${v}/dist/vconsole.min.js`
+        script.onload = initVConsole
+        document.body.append(script)
+      }
+      // loadVConsole()
+    </script>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+      var exports = {}
+      global = globalThis
+      document.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault()
+        }
+      })
+      var lastTouchEnd = 0
+      document.addEventListener(
+        'touchend',
+        function (event) {
+          var now = new Date().getTime()
+          if (now - lastTouchEnd <= 300) {
+            event.preventDefault()
+          }
+          lastTouchEnd = now
+        },
+        false
+      )
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3892W6G2PP"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-3892W6G2PP')
+    </script>
+  </body>
+</html>
