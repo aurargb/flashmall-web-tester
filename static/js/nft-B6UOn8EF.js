@@ -1,0 +1,1 @@
+import{N as e}from"./index-Bsb9uxb4.js";const t=s=>e("POST","/vsageUsers/getUsersByAddress",s),a=s=>e("GET","/vsageRedeemLog/list",s),d=s=>e("GET","/vsageUsers/getAddressById",s),g=()=>e("GET","/vsageUsers/getInactiveUsers",!1);export{a,t as b,g as c,d as g};

@@ -1,0 +1,1 @@
+import{N as e}from"./index-Bsb9uxb4.js";const n=t=>e("GET","/points/getPointChangeDetails",t),a=t=>e("GET",`/points/getUnreadList?tradeType=${t}`,""),r=t=>e("GET","/usersPointsBalanceChange/list",t);export{r as a,a as g,n as i};
